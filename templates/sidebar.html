@@ -1,0 +1,20 @@
+<nav class="column is-one-third">
+  <div class="menu">
+    <p class="menu-label">
+      General
+    </p>
+    <ul class="menu-list">
+      <li><a $if(index)$ class="is-active" $endif$ href="/">About Me</a></li>
+      <li><a $if(contact)$ class="is-active" $endif$ href="/contact.html">Contact</a></li>
+      <li><a $if(projects)$ class="is-active" $endif$ href="/projects.html">Projects</a></li>
+    </ul>
+    <p class="menu-label">
+      Research
+    </p>
+    <ul class="menu-list">
+      <li><a $if(research-topics)$ class="is-active" $endif$ href="research-topics.html">Research Topics</a></li>
+      <li><a $if(publications)$ class="is-active" $endif$ href="/publications.html">Publications</a></li>
+      <li><a $if(skills)$ class="is-active" $endif$ href="/skills.html">Skills</a></li>
+    </ul>
+  </div>
+</nav>
