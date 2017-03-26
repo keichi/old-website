@@ -1,7 +1,6 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mconcat, (<>))
-import qualified Data.Set    as S
+import           Data.Monoid ((<>))
 import           Hakyll
 
 
