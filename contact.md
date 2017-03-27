@@ -21,3 +21,12 @@ Cybermedia Center, Osaka University
 
 - Office: takahashi.keichi at ais.cmc.osaka-u.ac.jp
 - Private: keichi.t at me.com
+
+### Social
+
+- [Blog](https://blog.keichi.net/) (Japanese)
+- [Twitter](https://twitter.com/_keichi_)
+- [Facebook](https://www.facebook.com/keichi.t)
+- [GitHub](https://github.com/keichi)
+- [LinkedIn](https://www.linkedin.com/in/keichi/)
+- [Keybase](https://keybase.io/keichi)
