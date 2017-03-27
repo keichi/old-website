@@ -62,6 +62,7 @@ main = hakyll $ do
         , "tile-wide.png"
         , "tile.png"
         , ".static"
+        , "keybase.txt"
         ]
 
     pages =
