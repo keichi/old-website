@@ -31,6 +31,16 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateBodyCompiler
 
+    create ["sitemap.xml"] $ do
+        route   idRoute
+        compile $ do
+            pages <- mapM load (["index.md"] ++ pages)
+            let ctx = listField "entries" pageCtx (return pages) <>
+                      defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/sitemap.xml" ctx
+
   where
     staticFiles =
         [ "android-chrome-192x192.png"
@@ -59,3 +69,7 @@ main = hakyll $ do
         , "research-topics.md"
         , "publications.md"
         ]
+
+    pageCtx = modificationTimeField "isodate" "%F" <>
+              constField "siteroot" "https://keichi.net" <>
+              defaultContext
