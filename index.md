@@ -3,13 +3,17 @@ title: About Me
 index: yes
 ---
 
-My main research topic is interconnection networks of high-performance
-computer systems and Messge Passing Interface (MPI).
+My current research topic is Message Passing Interface (MPI) and interconnection
+networks of high-performance computing systems. I have been working on how to
+dynamically control the interconnect based on the communication pattern of
+MPI applications. I am also interested in other fields of parallel and
+distributed computing as well.
 
-I am also part of a joint research project of [TIS](https://www.tis.co.jp/)
-Inc. and Cybermedia Center, which targets Internet of Things (IoT).
-I am leading a small team to develop proof-of-concept software. Some outcomes
-are open sourced.
+Besides my main research project, I am part of a joint research project of
+[TIS Inc.](https://www.tis.co.jp/) and Cybermedia Center towards building a
+sharing economy platform for Internet of Things (IoT) devices. As the lead
+developer of the project, my mission is to design and implement
+proof-of-concept software. Some of the outcomes has been open sourced.
 
 I have been working as a part-time programmer for more than 7 years.
 During my carrier, I developed various kinds of software including image
@@ -27,8 +31,8 @@ works are exemplified by:
 - Developing a framework on top of [Play](https://www.playframework.com/)
   to facilitate (and partly automate) developemnt of REST APIs
 
-At my laboratory, I am responsible for the management of servers and networks.
-I have designed and deployed a small-scale, but modern cluster using
-technologies such as KVM, Docker, Dokku (PasS based on docker), Prometheus
-(Server monitoring & alerting system), Grafana (Server metrics visualization),
-Ansible, etc.
+At our laboratory, I am responsible for the management of our servers and
+networks. I have deployed and maintained a small-scale, but modern cluster
+using technologies such as KVM, Docker, Dokku (PasS based on docker),
+Prometheus (Server monitoring & alerting system), Grafana (Server metrics
+visualization), Ansible, etc.
