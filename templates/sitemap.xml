@@ -3,7 +3,7 @@
 $for(entries)$
     <url>
         <loc>$siteroot$$url$</loc>
-        <lastmod>$isodate$</lastmod>
+        <lastmod>$lastmod$</lastmod>
         <priority>0.8</priority>
     </url>
 $endfor$

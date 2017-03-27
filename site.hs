@@ -18,15 +18,15 @@ main = hakyll $ do
     match "index.md" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/index.html" defaultContext
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/index.html" baseCtx
+            >>= loadAndApplyTemplate "templates/default.html" baseCtx
             >>= relativizeUrls
 
     match (fromList pages) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/page.html" defaultContext
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/page.html" baseCtx
+            >>= loadAndApplyTemplate "templates/default.html" baseCtx
             >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
@@ -35,8 +35,8 @@ main = hakyll $ do
         route   idRoute
         compile $ do
             pages <- mapM load (["index.md"] ++ pages)
-            let ctx = listField "entries" pageCtx (return pages) <>
-                      defaultContext
+            let ctx = listField "entries" baseCtx (return pages) <>
+                      baseCtx
 
             makeItem ""
                 >>= loadAndApplyTemplate "templates/sitemap.xml" ctx
@@ -71,6 +71,7 @@ main = hakyll $ do
         , "publications.md"
         ]
 
-    pageCtx = modificationTimeField "isodate" "%F" <>
+    baseCtx = modificationTimeField "lastmod" "%F" <>
               constField "siteroot" "https://keichi.net" <>
+              constField "sitetitle" "Keichi Takahashi" <>
               defaultContext
