@@ -15,21 +15,18 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match "index.html" $ do
-        route   idRoute
-        let ctx = constField "title" "About Me" <>
-                  constField "index" "yes" <>
-                  defaultContext
-        compile $ getResourceBody
-            >>= loadAndApplyTemplate "templates/default.html" ctx
+    match "index.md" $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/index.html" defaultContext
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
     match (fromList pages) $ do
         route   $ setExtension "html"
-        let ctx = defaultContext
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/page.html" ctx
-            >>= loadAndApplyTemplate "templates/default.html" ctx
+            >>= loadAndApplyTemplate "templates/page.html" defaultContext
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
