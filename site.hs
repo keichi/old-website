@@ -1,12 +1,13 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+import           Data.List        (isPrefixOf, isSuffixOf)
 import           Data.Monoid ((<>))
 import           Hakyll
 
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
     match ("images/*" .||. "fonts/*" .||. fromList staticFiles) $ do
         route   idRoute
         compile copyFileCompiler
@@ -42,6 +43,18 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/sitemap.xml" ctx
 
   where
+    config = defaultConfiguration {
+        ignoreFile = ignoreFile'
+    }
+
+    ignoreFile' fileName
+        | ".static" == fileName        = False
+        | "."    `isPrefixOf` fileName = True
+        | "#"    `isPrefixOf` fileName = True
+        | "~"    `isSuffixOf` fileName = True
+        | ".swp" `isSuffixOf` fileName = True
+        | otherwise                    = False
+
     staticFiles =
         [ "android-chrome-192x192.png"
         , "android-chrome-512x512.png"
