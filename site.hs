@@ -61,6 +61,7 @@ main = hakyll $ do
         , "safari-pinned-tab.svg"
         , "tile-wide.png"
         , "tile.png"
+        , ".static"
         ]
 
     pages =
