@@ -14,7 +14,7 @@ Cybermedia Center, Osaka University
 
 ### Tel
 
-- Office: +810668794411
+- Office: +81668794411
 - Private: +818040206553
 
 ### Email
