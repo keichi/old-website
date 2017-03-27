@@ -14,8 +14,10 @@ Cybermedia Center, Osaka University
 
 ### Tel
 
-+810668794411
+- Office: +810668794411
+- Private: +818040206553
 
 ### Email
 
-takahashi.keichi at ais.cmc.osaka-u.ac.jp
+- Office: takahashi.keichi at ais.cmc.osaka-u.ac.jp
+- Private: keichi.t at me.com
