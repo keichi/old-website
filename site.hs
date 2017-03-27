@@ -61,5 +61,4 @@ main = hakyll $ do
         , "projects.md"
         , "research-topics.md"
         , "publications.md"
-        , "skills.md"
         ]
