@@ -30,3 +30,7 @@ Cybermedia Center, Osaka University
 - [GitHub](https://github.com/keichi)
 - [LinkedIn](https://www.linkedin.com/in/keichi/)
 - [Keybase](https://keybase.io/keichi)
+
+### Bitcoin
+
+`1MBbMcJxSKNNNo7rjRTcEeAisAbsanzMtM`
