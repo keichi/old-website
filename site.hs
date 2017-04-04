@@ -87,6 +87,7 @@ main = hakyllWith config $ do
         , "projects.md"
         , "research-topics.md"
         , "publications.md"
+        , "talks.md"
         ]
 
     baseCtx = modificationTimeField "lastmod" "%F" <>
