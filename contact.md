@@ -35,6 +35,6 @@ Cybermedia Center, Osaka University
 
 `1MBbMcJxSKNNNo7rjRTcEeAisAbsanzMtM`
 
-### PGP
+### GPG
 
 `F636 B179 E142 ABCA 2522  199E FD04 0976 86C9 3199`
