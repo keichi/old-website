@@ -33,8 +33,8 @@ Cybermedia Center, Osaka University
 
 ### Bitcoin
 
-`1MBbMcJxSKNNNo7rjRTcEeAisAbsanzMtM`
+![1MBbMcJxSKNNNo7rjRTcEeAisAbsanzMtM](/images/bitcoin.png)
 
 ### GPG
 
-`F636 B179 E142 ABCA 2522  199E FD04 0976 86C9 3199`
+[F636 B179 E142 ABCA 2522  199E FD04 0976 86C9 3199](https://pgp.mit.edu/pks/lookup?op=get&search=0xFD04097686C93199)
