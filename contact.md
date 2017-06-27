@@ -7,7 +7,7 @@ contact: yes
 
 ```
 Keichi Takahashi
-Applied Information Systems Research Research Division
+Applied Information Systems Research Division
 Cybermedia Center, Osaka University
 5-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan
 ```
