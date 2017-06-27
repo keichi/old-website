@@ -5,6 +5,11 @@ publications: yes
 
 ## International Conference
 
+- __Keichi Takahashi__, Khureltulga Dashdavaa, Susumu Date, Yoshiyuki Kido,
+  Shinji Shimojo, "A Toolset for Analyzing Application-aware Dynamic
+  Interconnects", _Workshop on Monitoring and Analysis for High Performance
+  Computing Systems Plus Applications (HPCMASPA 2017)_ (held in conjunction
+  with IEEE Cluster 2017), Sep. 2017. (accepted)
 - __Keichi Takahashi__, Khureltulga Dashdavaa, Baatarsuren Munkhdorj,
   Yoshiyuki Kido, Susumu Date, Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo,
   "Concept and Design of SDN-enhanced MPI Framework", _The fourth edition of
@@ -22,7 +27,7 @@ publications: yes
   Lee, Shinji Shimojo, "Highly Reconfigurable Computing Platform for High
   Performance Computing Infrastructure as a Service: Hi-IaaS", _The 7th
   International Conference on Cloud Computing and Services Science (CLOSER
-  2017)_, Apr. 2017. (accepted)
+  2017)_, Apr. 2017.
 - Takuya Yamada, __Keichi Takahashi__, Masaya Muraki, Susumu Date, Shinji
   Shimojo, Network Access Control Towards Fully-controlled Cloud
   Infrastructure”, PhD. Consortium, _8th IEEE International Conference on
