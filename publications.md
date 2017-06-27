@@ -28,6 +28,7 @@ publications: yes
   Performance Computing Infrastructure as a Service: Hi-IaaS", _The 7th
   International Conference on Cloud Computing and Services Science (CLOSER
   2017)_, Apr. 2017.
+  [10.5220/0006302501630174](https://doi.org/10.5220/0006302501630174)
 - Takuya Yamada, __Keichi Takahashi__, Masaya Muraki, Susumu Date, Shinji
   Shimojo, Network Access Control Towards Fully-controlled Cloud
   Infrastructure”, PhD. Consortium, _8th IEEE International Conference on
