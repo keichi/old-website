@@ -9,7 +9,8 @@ publications: yes
   Shinji Shimojo, "A Toolset for Analyzing Application-aware Dynamic
   Interconnects", _Workshop on Monitoring and Analysis for High Performance
   Computing Systems Plus Applications (HPCMASPA 2017)_ (held in conjunction
-  with IEEE Cluster 2017), Sep. 2017. (accepted)
+  with IEEE Cluster 2017), Sep. 2017.
+  [10.1109/CLUSTER.2017.18](https://doi.org/10.1109/CLUSTER.2017.18)
 - __Keichi Takahashi__, Khureltulga Dashdavaa, Baatarsuren Munkhdorj,
   Yoshiyuki Kido, Susumu Date, Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo,
   "Concept and Design of SDN-enhanced MPI Framework", _The fourth edition of
