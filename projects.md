@@ -14,7 +14,7 @@ projects: yes
 - [vienna](https://github.com/keichi/vienna): Simple and clean theme for
   [hugo](https://gohugo.io/) (static website generator)
 - [osx-tag](https://github.com/keichi/osx-tag): A node.js module to operate
-  tags on OSX Mavericks
+  tags on macOS Mavericks or later
 - [arachne](https://github.com/keichi/arachne-mk2): High-performance
   BitTorrent DHT crawler
 - [pi-oven](https://github.com/keichi/pi-oven): Automated provisioning of
