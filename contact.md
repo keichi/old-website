@@ -6,7 +6,7 @@ contact: yes
 ### Address
 
 ```
-Keichi Takahashi
+Keichi Takahashi (高橋 慧智)
 Applied Information Systems Research Division
 Cybermedia Center, Osaka University
 5-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan
