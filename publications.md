@@ -6,10 +6,10 @@ publications: yes
 ## International Conference
 
 - __Keichi Takahashi__, Khureltulga Dashdavaa, Susumu Date, Yoshiyuki Kido,
-  Shinji Shimojo, "A Toolset for Analyzing Application-aware Dynamic
-  Interconnects", _Workshop on Monitoring and Analysis for High Performance
-  Computing Systems Plus Applications (HPCMASPA 2017)_ (held in conjunction
-  with IEEE Cluster 2017), Sep. 2017.
+  Shinji Shimojo, "PFAnalyzer: A Toolset for Analyzing Application-aware
+  Dynamic Interconnects", _Workshop on Monitoring and Analysis for High
+  Performance Computing Systems Plus Applications (HPCMASPA 2017)_ (held in
+  conjunction with IEEE Cluster 2017), Sep. 2017.
   [10.1109/CLUSTER.2017.18](https://doi.org/10.1109/CLUSTER.2017.18)
 - Akihiro Misawa, Susumu Date, __Keichi Takahashi__, Takashi Yoshikawa,
   Masahiko Takahashi, Masaki Kan, Yasuhiro Watashiba, Yoshiyuki Kido, Chonho
