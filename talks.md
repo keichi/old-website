@@ -3,6 +3,8 @@ title: Talks
 talks: yes
 ---
 
+<script async class="speakerdeck-embed" data-id="0e7da70374974d20a55e40469172b3c1" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
 <script async class="speakerdeck-embed" data-id="8dd8be201ef84019b81c379852e5088f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 <script async class="speakerdeck-embed" data-id="6ed0688c2aec4c19ab610bfb87432219" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
