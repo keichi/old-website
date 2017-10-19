@@ -5,6 +5,12 @@ publications: yes
 
 ## International Conference
 
+
+- Hiroaki Morimoto, Khureltulga Dashdavaa, __Keichi Takahashi__, Yoshiyuki
+  Kido, Susumu Date, Shinji Shimojo, "Design and Implementation of
+  SDN-enhanced MPI Broadcast Targeting a Fat-tree Interconnect", The 2017
+  International Conference on High Performance Computing & Simulation (HPCS
+  2017), Jul. 2017.
 - __Keichi Takahashi__, Khureltulga Dashdavaa, Susumu Date, Yoshiyuki Kido,
   Shinji Shimojo, "PFAnalyzer: A Toolset for Analyzing Application-aware
   Dynamic Interconnects", _Workshop on Monitoring and Analysis for High
