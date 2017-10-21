@@ -8,9 +8,9 @@ publications: yes
 
 - Hiroaki Morimoto, Khureltulga Dashdavaa, __Keichi Takahashi__, Yoshiyuki
   Kido, Susumu Date, Shinji Shimojo, "Design and Implementation of
-  SDN-enhanced MPI Broadcast Targeting a Fat-tree Interconnect", The 2017
+  SDN-enhanced MPI Broadcast Targeting a Fat-tree Interconnect", _The
   International Conference on High Performance Computing & Simulation (HPCS
-  2017), Jul. 2017.
+  2017)_, Jul. 2017.
 - __Keichi Takahashi__, Khureltulga Dashdavaa, Susumu Date, Yoshiyuki Kido,
   Shinji Shimojo, "PFAnalyzer: A Toolset for Analyzing Application-aware
   Dynamic Interconnects", _Workshop on Monitoring and Analysis for High
@@ -37,19 +37,18 @@ publications: yes
 - Baatarsuren Munkhdorj, __Keichi Takahashi__, Khureltulga Dashdavaa, Yasuhiro
   Watashiba, Yoshiyuki Kido, Susumu Date, Shinji Shimojo, "Design and
   Implementation of Control Sequence Generator for SDN-enhanced MPI", _The 5th
-  International Workshop on Network-aware Data Management(NDM’15)_, Austin,
-  Nov. 2015.
-  [10.1145/2832099.2832103](https://doi.org/10.1145/2832099.2832103)
+  International Workshop on Network-aware Data Management (NDM’15)_,
+  Nov. 2015. [10.1145/2832099.2832103](https://doi.org/10.1145/2832099.2832103)
 - Susumu Date, Hirotake Abe, Khureltulga Dashdavaa, __Keichi Takahashi__,
   Yoshuyuki Kido, Yasuhiro Watashiba, Pongsakorn U-Chupala, Kohei Ichikawa,
   Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "An Empirical Study of
   SDN-accelerated HPC Infrastructure for Scientific Research", _International
-  Conference Research and Innovation (ICCCRI)_, Singapore, Oct. 2015.
+  Conference Research and Innovation (ICCCRI)_, Oct. 2015.
   [10.1109/ICCCRI.2015.13](https://doi.org/10.1109/ICCCRI.2015.13)
 - Pisit Makpaisit, Kohei Ichikawa, Putchong Uthayopas, Susumu Date, __Keichi
   Takahashi__, Khureltulga Dashdavaa, "An Efficient MPI_Reduce Algorithm for
   OpenFlow-Enabled Network", _15th International Symposium on Communications
-  and Information Technologies (ISCIT’15)_, Nara, Oct. 2015.
+  and Information Technologies (ISCIT’15)_, Oct. 2015.
   [10.1109/ISCIT.2015.7458357](https://doi.org/10.1109/ISCIT.2015.7458357)
 - __Keichi Takahashi__, Khureltulga Dashdavaa, Baatarsuren Munkhdorj,
   Yoshiyuki Kido, Susumu Date, Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo,
@@ -76,17 +75,15 @@ publications: yes
 
 - Takuya Yamada, __Keichi Takahashi__, Masaya Muraki, Yoshiyuki Kido, Susumu Date,
   Shimojo Shinji, "A Proposal of Access Control Mechanism for the IoT world",
-  _ASEAN IVO Meeting_, Bangkok, Thailand, Sep. 2016.
+  _ASEAN IVO Meeting_, Sep. 2016.
 - Takuya Yamada, __Keichi Takahashi__, Masaya Muraki, Yoshiyuki Kido, Susumu Date,
   Shimojo Shinji, "A Proposal of Access Control Mechanism Towards
-  User-dedicated PRAGMA-ENT for IoT Era", _PRAGMA Workshop 31_, Bangkok,
-  Thailand, Sep. 2016.  [The 2nd Place of the Students Poster
-  Award]
+  User-dedicated PRAGMA-ENT for IoT Era", _PRAGMA Workshop 31_, Sep. 2016.
+  (The 2nd Place of the Students Poster Award)
 - Khureltulga Dashdavaa, Munkhdorj Baatarsuren, __Keichi Takahashi__, Susumu
   Date, Yoshiyuki Kido, Shinji Shimojo, "A MPI Concept with Efficient Control
-  of Network Functionality Based on SDN", _PRAGMA 29_, Depok, Indonesia,
-  Oct. 2015.
+  of Network Functionality Based on SDN", _PRAGMA 29_, Oct. 2015.
 - __Keichi Takahashi__, Baatarsuren Munkhdorj, Khureltulga Dashdavaa, Susumu
-  Date, Yoshiyuki Kido, Shinji Shimojo, “Control Sequence Generator for
-  Generic SDN-­enhanced MPI Framework”, PRAGMA 28, Nara, Japan, 8-11,
-  Apr. 2015. (Best Poster Award)
+  Date, Yoshiyuki Kido, Shinji Shimojo, "Control Sequence Generator for
+  Generic SDN-­enhanced MPI Framework", PRAGMA 28, Apr. 2015. (Best Poster
+  Award)
