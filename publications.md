@@ -10,7 +10,7 @@ publications: yes
   Kido, Susumu Date, Shinji Shimojo, "Design and Implementation of
   SDN-enhanced MPI Broadcast Targeting a Fat-tree Interconnect", _The
   International Conference on High Performance Computing & Simulation (HPCS
-  2017)_, Jul. 2017.
+  2017)_, Jul. 2017. [10.1109/HPCS.2017.46](https://doi.org/10.1109/HPCS.2017.46)
 - __Keichi Takahashi__, Khureltulga Dashdavaa, Susumu Date, Yoshiyuki Kido,
   Shinji Shimojo, "PFAnalyzer: A Toolset for Analyzing Application-aware
   Dynamic Interconnects", _Workshop on Monitoring and Analysis for High
