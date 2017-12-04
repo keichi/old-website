@@ -23,3 +23,8 @@ cabal.project.local
 
 _cache/
 _site/
+
+### https://raw.github.com/github/gitignore/f2ce448f2ba7a092da05482ceca99209127c0884/Sass.gitignore
+
+.sass-cache/
+*.css.map

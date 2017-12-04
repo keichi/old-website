@@ -1,8 +1,9 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.List        (isPrefixOf, isSuffixOf)
-import           Data.Monoid ((<>))
+import           Data.List       (isPrefixOf, isSuffixOf)
+import           Data.Monoid     ((<>))
 import           Hakyll
+import           Hakyll.Web.Sass (sassCompiler)
 
 
 --------------------------------------------------------------------------------
@@ -16,9 +17,14 @@ main = hakyllWith config $ do
         route   $ gsubRoute "miscs/" (const "")
         compile copyFileCompiler
 
-    match "css/*" $ do
+    match "css/*.css" $ do
         route   idRoute
         compile compressCssCompiler
+
+    match "css/*.sass" $ do
+        route $ setExtension "css"
+        let compressCssItem = fmap compressCss
+        compile (compressCssItem <$> sassCompiler)
 
     match "index.md" $ do
         route   $ setExtension "html"
