@@ -3,9 +3,9 @@ title: About Me
 index: yes
 ---
 
-My current research topic include Message Passing Interface (MPI) and
+My current research topic includes Message Passing Interface (MPI) and
 interconnection networks of high-performance computing systems. Specifically,
-I have been working on how to dynamically reconfigure the interconnect based
+I have been working on how to dynamically reconfigure interconnects based
 on the communication pattern of MPI applications. I am also interested in
 other fields of parallel and distributed computing as well.
 
